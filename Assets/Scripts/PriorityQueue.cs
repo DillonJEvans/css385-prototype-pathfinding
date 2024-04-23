@@ -16,7 +16,7 @@ public class PriorityQueue<TElement, TPriority> where TPriority : IComparable
     /// <summary>
     /// The comparer used to compare the priorities of elements.
     /// </summary>
-    private readonly IComparer<TPriority> comparer = default;
+    private readonly IComparer<TPriority> comparer = Comparer<TPriority>.Default;
 
 
 
