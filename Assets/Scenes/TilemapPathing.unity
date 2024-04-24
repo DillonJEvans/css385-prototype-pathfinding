@@ -8853,11 +8853,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1008298163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3f5ea4148a0ca84ca97e6c46756c23f, type: 3}
+  m_Script: {fileID: 11500000, guid: ae1cae60c04d8084892462916d0974de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  walls: {fileID: 731796177}
 --- !u!1 &1233817739
 GameObject:
   m_ObjectHideFlags: 0
@@ -8963,6 +8962,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f95f16023cadea44afff56b46956ddb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  obstacles: {fileID: 731796177}
   agent: {fileID: 1008298166}
 --- !u!1 &1244362203
 GameObject:
